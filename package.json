@@ -45,7 +45,7 @@
     "url": "https://github.com/lucasbento/react-redux-todo.git"
   },
   "scripts": {
-    "build": "webpack --production --config webpack.prod.config.js --progress --profile --colors",
+    "build": "webpack --production --config webpack.prod.config.js --progress --profile --colors --output public",
     "lint": "eslint --ext js src || exit 0",
     "start": "webpack-dev-server --config webpack.config.js --progress --profile --colors"
   }
